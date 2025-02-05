@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
 
-  let [counter, setCounter] = useState(15)
+  const [counter, setCounter] = useState(15)
 
   // let counter = 15
 
@@ -13,7 +13,13 @@ function App() {
     // console.log("value added",counter);
     // counter = counter + 1;    //UI updation ko react control karta hai 
     if (counter < 20){
+      setCounter(counter + 1)    
       setCounter(counter + 1)
+      setCounter(counter + 1)
+      setCounter(counter + 1)     //incriment only +1  because farmation of bach
+      // setCounter(prevCounter => prevCounter + 1)
+      // setCounter(prevCounter => prevCounter + 1)  
+      // setCounter(prevCounter => prevCounter + 1) //incriment +3
     }
 
     // hiteshCounter(counter + 1);
