@@ -2,7 +2,7 @@
 
 ## header component
 
-```javascript
+``` javascript
 export default function Header() {
     return (
         <header className="shadow sticky z-50 top-0">
@@ -58,8 +58,7 @@ export default function Header() {
 
 ## Footer component
 
-
-``` javascritp
+``` javascript
 export default function Footer() {
     return (
         <footer className="bg-white border-y">
@@ -222,7 +221,6 @@ export default function Footer() {
 
 ```
 
-
 ## Home component
 
 ``` javascript
@@ -272,9 +270,9 @@ export default function Home() {
 
 ```
 
-## About us component
+## About us component 
 
-```javascript
+``` javascript
 export default function About() {
     return (
         <div className="py-16 bg-white">
@@ -452,3 +450,4 @@ export default function Contact() {
 }
 
 ```
+
